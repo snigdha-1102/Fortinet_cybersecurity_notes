@@ -2,6 +2,18 @@
 
 - Cybersecurity means protecting computer systems and networks from attacks.
 - Common threats: malware, phishing, ransomware, DDoS attacks.
-- Example: A phishing email tricks you into giving your password.
+- Example: A phishing email tricks you into giving your password. 
 
-**Summary:** Cybersecurity is important to protect data and systems.
+FIREWALL- it controls the flow of traffic
+types of firewalls-
+stateless/packet filter FW-
+
+A stateless firewall is a type of firewall that checks each network packet individually, based only on predefined rules such as source IP, destination IP, port number, and protocol.
+It does not remember any previous packets or connections.
+example- imagine a securtity card verifys ids of each person he does not remember if the same eperson came before if the id matches he allows otherwise denied.
+drawback- it requires extra firewall policies for return traffic session.it open random ports and send and use multiple connections like FTP to transfer the return data.
+it uses "one-size-fits-all" approach to decide whether to allow or pass the traffic.due to this bad actors try to bypass firewall and inject rougue packets through acceptable protocols or ports.
+
+stateful FW-
+It obseves the network flow.it watchees new network connections and continuously examine the traffic.if any connection behaves improper then it blocks.
+if the return traffic does not match the incoming traffic and doesnot obey the firewall policy then it is dropped.
