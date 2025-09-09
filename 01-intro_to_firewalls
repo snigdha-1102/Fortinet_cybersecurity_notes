@@ -17,3 +17,15 @@ it uses "one-size-fits-all" approach to decide whether to allow or pass the traf
 stateful FW-
 It obseves the network flow.it watchees new network connections and continuously examine the traffic.if any connection behaves improper then it blocks.
 if the return traffic does not match the incoming traffic and doesnot obey the firewall policy then it is dropped.
+drawback-if the rougue packets which are passed are using hhtp well used protocols then it cannot detect or block.FW has to deep driver into data payload to check the hhtp.
+
+third generation firewalls-
+it looks deeper into data payloads and they implement application layer filtering which means they not only verifys the port numbers or ip address but also the content.
+it distinguish between a browser traffic,a file, a blog a email,social media etc.
+
+next genration FW- it firsts checks the packets and and determine whether to allow or or drop traffic
+it checks the content inside the packets this is deep packet inspection(DPI).
+if malicious activity detected then it send to sandbox for further investigation.
+
+
+
