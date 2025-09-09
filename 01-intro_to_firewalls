@@ -19,7 +19,7 @@ It obseves the network flow.it watchees new network connections and continuously
 if the return traffic does not match the incoming traffic and doesnot obey the firewall policy then it is dropped.
 drawback-if the rougue packets which are passed are using hhtp well used protocols then it cannot detect or block.FW has to deep driver into data payload to check the hhtp.
 
-third generation firewalls-
+third generation firewalls/UTM FW-
 it looks deeper into data payloads and they implement application layer filtering which means they not only verifys the port numbers or ip address but also the content.
 it distinguish between a browser traffic,a file, a blog a email,social media etc.
 
